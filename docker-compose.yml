@@ -1,0 +1,6 @@
+services:
+  app:
+    restart: unless-stopped
+    build: .
+    ports:
+      - "2673:2673"
